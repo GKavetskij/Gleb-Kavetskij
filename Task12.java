@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+// Для каждого числа из заданной последовательности целых чисел, найти количество цифр, меньших 5.
 public class Task12 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
