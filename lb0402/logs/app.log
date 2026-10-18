@@ -1,0 +1,33 @@
+2026-10-18 19:35:38 [main] WARN  com.taxes.util.DataReader - non-numeric extra 'abc', default 0
+2026-10-18 19:35:38 [main] WARN  com.taxes.util.DataReader - non-numeric extra 'xyz', default 0
+2026-10-18 19:35:38 [main] DEBUG com.taxes.util.DataReader - line 1: OK
+2026-10-18 19:35:38 [main] DEBUG com.taxes.util.DataReader - line 1: OK
+2026-10-18 19:35:38 [main] WARN  com.taxes.util.DataReader - line 2 skipped ('ADDITIONAL_JOB;Отрицательный;-50000'): negative amount: -50000.0
+2026-10-18 19:35:38 [main] WARN  com.taxes.util.DataReader - line 3 skipped ('UNKNOWN;Тип;100000'): unknown type UNKNOWN
+2026-10-18 19:35:38 [main] WARN  com.taxes.util.DataReader - line 4 skipped ('ROYALTY;abc;xyz'): bad amount xyz
+2026-10-18 19:35:38 [main] DEBUG com.taxes.util.DataReader - line 5: OK
+2026-10-18 19:36:36 [main] INFO  com.taxes.App - Application started
+2026-10-18 19:36:36 [main] DEBUG com.taxes.util.DataReader - line 2: OK
+2026-10-18 19:36:36 [main] DEBUG com.taxes.util.DataReader - line 3: OK
+2026-10-18 19:36:36 [main] DEBUG com.taxes.util.DataReader - line 4: OK
+2026-10-18 19:36:36 [main] DEBUG com.taxes.util.DataReader - line 5: OK
+2026-10-18 19:36:36 [main] DEBUG com.taxes.util.DataReader - line 6: OK
+2026-10-18 19:36:36 [main] DEBUG com.taxes.util.DataReader - line 7: OK
+2026-10-18 19:36:36 [main] WARN  com.taxes.util.DataReader - line 10 skipped ('ADDITIONAL_JOB;Отрицательный;-50000'): negative amount: -50000.0
+2026-10-18 19:36:36 [main] WARN  com.taxes.util.DataReader - line 11 skipped ('UNKNOWN;Неизвестный тип;100000'): unknown type UNKNOWN
+2026-10-18 19:36:36 [main] WARN  com.taxes.util.DataReader - line 12 skipped ('ROYALTY;Без суммы;abc'): bad amount abc
+2026-10-18 19:36:36 [main] WARN  com.taxes.util.DataReader - non-numeric extra 'abc', default 0
+2026-10-18 19:36:36 [main] WARN  com.taxes.util.DataReader - non-numeric extra 'xyz', default 0
+2026-10-18 19:36:36 [main] DEBUG com.taxes.util.DataReader - line 13: OK
+2026-10-18 19:36:36 [main] INFO  com.taxes.App - Loaded 7 records
+2026-10-18 19:36:36 [main] INFO  com.taxes.App - Total income: 2900000,00
+2026-10-18 19:36:36 [main] INFO  com.taxes.App - Total tax   : 372762,00
+2026-10-18 19:36:36 [main] INFO  com.taxes.App - Taxes sorted by amount:
+2026-10-18 19:36:36 [main] INFO  com.taxes.App -   TaxPayment{source='Подарок', tax=3900,00}
+2026-10-18 19:36:36 [main] INFO  com.taxes.App -   TaxPayment{source='Авторские', tax=6500,00}
+2026-10-18 19:36:36 [main] INFO  com.taxes.App -   TaxPayment{source='Подработка', tax=15600,00}
+2026-10-18 19:36:36 [main] INFO  com.taxes.App -   TaxPayment{source='Перевод из-за границы', tax=26000,00}
+2026-10-18 19:36:36 [main] INFO  com.taxes.App -   TaxPayment{source='Плохие доп.параметры', tax=52000,00}
+2026-10-18 19:36:36 [main] INFO  com.taxes.App -   TaxPayment{source='Зарплата', tax=73762,00}
+2026-10-18 19:36:36 [main] INFO  com.taxes.App -   TaxPayment{source='Продажа квартиры', tax=195000,00}
+2026-10-18 19:36:36 [main] INFO  com.taxes.App - Application finished
